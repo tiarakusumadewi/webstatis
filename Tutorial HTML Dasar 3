@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>PERPUSTAKAAN UIN JAKARTA</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>h1 {text-align:center}
+    img {float:left}
+    table, th, td {border: 1px solid blue; border-radius: 10px;}
+     /* Style all elements with the class name "section" */
+     .section {
+  background-color: rgb(82, 127, 196);
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;}
+  #DENAHGEDUNG {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;} 
+    </style> 
+</head>
+<body><body style="background-color: rgb(236, 236, 236);"></body>
+<h1 style="background-color: blue; font-family: poppin; color: white">PERPUSTAKAAN PUSAT UIN JAKARTA</h1>
+<h2>PROFIL PERPUSTAKAAN</h2>
+<p style="text-align: justify; font-size: 20px;"><img src="https://1.bp.blogspot.com/-3SSdus44I5g/YSsDK22AuiI/AAAAAAAADEs/YvEl_RMHh3gis48RJ13D1ZftmxFfYNkNQCLcBGAsYHQ/s4592/DSC00073.JPG" width="400" height="290" style= margin-right:10px;><b> <i>Perpustakaan UIN</b></i> pada awalnya merupakan peralihan nama dari Perpustakaan IAIN Jakarta, yang didirikan seiring dengan berdirinya IAIN itu sendiri, yaitu sejak berdirinya ADIA (Akademi Dinas Ilmu Agama) pada tanggal 1 Juni 1957. 
+    Pada waktu itu kondisi perpustakaan masih sangat sederhana, hanya terdiri dari satu ruangan dengan koleksi sebanyak 2000 eksemplar, dan hanya dikelola oleh seorang pegawai. Pada tahun 1960-1964 Perpustakaan IAIN dipimpin oleh Drs.Syadali (beliau adalah Rektor IAIN tahun 1984-1993).Dibawah kepemimpinannya perpustakaan sudah mulai dikelola secara lebih sistematis. Pada periode tersebut, koleksi buku diklasifikasi menurut DDC (Dewey Decimal Classification). 
+    Di samping itu sistem peminjaman juga sudah mulai tertib, dan jumlah pegawainya ada 4 orang. Selanjutnya, pada tahun 1971-1983 Perpustakaan IAIN dipimpin oleh Ny. Dra. Hj. Halimah Madjid. Di bawah kepemimpinannya perpustakaan ditata lebih teratur dan menempati ruang yang lebih luas (gedung Aula Madya saat ini). Pada masa inilah puncak prestasi perpustakaan berhasil diraih, tepatnya pada tahun 1980 Perpustakaan IAIN Jakarta tercatat sebagai perpustakaan perguruan tinggi terbaik se- DKI Jakarta. </p>
+<p style="text-align: justify; font-size: 20px;">Berbagai upaya perbaikan telah dilaksanakan,antara lain perbaikan gedung dan perlengkapannya,penerapan sistem otomasi, penerapan sistem kemanan koleksi dengan sensormatic, penambahan jenis layanan seperti warnet, audio visual, dan lain sebaginya. Kemudian berdasarkan Surat Keputusan Rektor No.B.III/P/478A tanggal 16 Nopember 2006, Dr.Muhammad Zuhdi, S.Ag,MA diangkat sebagai Kepala Perpustakaan Utama periode 2006-2010 dengan Wakil Kepala, Nuryudi, S.Ag,SS,MLIS menggantikan 
+  Dr.H.Ujang Thalib,MA dan Wakil Kepala Drs.Iskandar Sulaiman. Kepemimpinan Dr.Muhammad Zuhdi seiring dengan berubahnya status IAIN menjadi UIN (SK Presiden No. 31 tanggal 20 Mei 2002). Dan sejak saat itu nama perpustakaan juga mengalami perubahan menjadi “Perpustakaan Utama Universitas Islam Negeri Syarif Hidayatullah Jakarta”. Perkembangan terakhir, pada tahun 2004 bekerjasama dengan Kedutaan Amerika Serikat, Perpustakaan Utama UIN Jakarta telah membuka American Corner (Amcor) Hal tersebut dimaksudkan sebagai upaya memenuhi kebutuhan informasi para sivitas akademika, terutama berbagai informasi yang terkait dengan Amerika. Berbagai sumber informasi yang disediakan oleh Amcor adalah buku-buku, majalah, jurnal tercetak, online-journal (EBSCO, dll). Disamping itu Amcor juga secara reguler mengadakan berbagai kegiatan seperti pemutaran film, teleconference, diskusi, dll.
+</p>
+
+<!--Block & Inline-->
+<address style="font-size: large;">Website Perpustakaan: <a href="https://perpus.uinjkt.ac.id/">Perpus Pusat UIN JKT</a> </address>
+<br>
+<hr>
+
+<!--List-->
+<h2>Jam Layanan Perpustakaan</h2>
+<dl>
+    <dt style="font-size:large;"><b>Senin-Kamis</b></dt>
+    <dd>Buka 08.30 - 16.00</dd>
+    <dd>- Istirahat 12.00 - 13.00</dd>
+    <br>
+    <dt style="font-size:large;"><b>Jumat</b></dt>
+    <dd>- Buka 08.30 - 16.30</dd>
+    <dd>- Istirahat 11.00 - 13.30</dd>
+    <br>
+    <dt style="font-size:large;"><b>Sabtu/Hari Libur</b></dt>
+    <dd>- Tutup</dd>
+  </dl>
+<hr>
+<h2>Layanan Perpustakaan Pusat UIN Jakarta</h2>
+<p style="text-align: justify; font-size: 20px;">Layanan Perpustakaan Pusat Perpustakaan UIN syarif Hidayatullah Jakarta menerapkan sistem layanan terbuka <i>(Open Access)</i>, dimana setiap pengunjung dapat mengakses secara langsung koleksi yang ada di Perpustakaan. Dengan sistem ini diharapkan pemustaja dapat melakukan pencarian informasi <i>(Browsing)</i> dan pencarian koleksi dengan leluasa dan sepuasnya sesuai kebutuhan. Layanan-layanan yang ada di Perpustakaan Pusat UIN Jakarta yaitu:</p>
+<ol>
+  <li style="font-size: large;">Layanan <span style="color:brown; font-weight: bold; font-size: large;">Sirkulasi</span></li>
+  <li style="font-size: large;">Layanan <span style="color:rgb(4, 132, 36); font-weight: bold; font-size: large;">Referensi</span></li>
+  <li style="font-size: large;">Layanan Koleksi UIN Syahid-ANA</li>
+  <li style="font-size: large;">Layanan Multimedia</li>
+  <li style="font-size: large;">Layanan Ruang Baca Khusus dan Riset</li>
+  <li style="font-size: large;">Layanan <span style="color:rgb(197, 13, 105); font-weight: bold; font-size: large;">Keanggotaan</span></li>
+  <li style="font-size: large;">Layanan Bebas Pustaka</li>
+  <li style="font-size: large;">Layanan Digital Repository</li>
+  <li style="font-size: large;">Layanan <span style="color:rgb(184, 120, 37); font-weight: bold; font-size: large;">Loker</span></li>
+</ol>
+<hr>
+<h2>Koleksi Perpustakaan Pusat UIN Jakarta</h2>
+<ul>
+  <li style="circle;">Buku Teks</li>
+  <li style="font-size: large;">Buku Corners</li>
+  <li style="font-size: large;">Buku Referensi</li>
+  <li style="font-size: large;">Koleksi Audio Visual</li>
+  <li style="font-size: large;">Jurnal</li>
+  <li style="font-size: large;">Majalah</li>
+  <li style="font-size: large;">Prosiding</li>
+  <li style="font-size: large;">Skripsi</li>
+  <li style="font-size: large;">Tesis</li>
+  <li style="font-size: large;">Disertasi</li>
+  <li style="font-size: large;">Laporan KKN</li>
+  <li style="font-size: large;">Koleksi Karya Dosen</li>
+  <li style="font-size: large;"><i>E-Book</i></li>
+  <li style="font-size: large;"><i>E-Journal</i></li>
+</ul>
+<hr>
+
+<!--Table-->
+<h2 style="text-align: center;">E-RESOURCE</h2>
+<table>
+    <tr>
+      <th style="width: 10%; font-size: 20px;">E-Resource</th>
+      <th style="font-size: 20px;">Penjelasan</th>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-size:larger;">JStor</td>
+      <td style="text-align: justify; font-size: 18px;">JSTOR (singkatan dari Journal Storage) adalah sebuah perpustakaan digital yang didirikan tahun 1995. Perpustakaan ini sebelumnya berisi terbitan jurnal akademik yang terdigitalisasi. Sekarang, koleksinya juga mencakup buku-buku dan sumber primer, serta terbitan jurnal terbaru.
+        Perpustakaan digital ini menyediakan layanan pencarian teks lengkap untuk lebih dari seribu jurnal. Lebih dari 7.000 institusi di 150 negara memiliki akses ke JSTOR. Kebanyakan bersifat langganan, tetapi sejumlah konten domain umum lama tersedia gratis. Pada tahun 2012, 
+        JSTOR meluncurkan program yang menyediakan akses gratis terbatas ke artikel-artikel lama untuk sarjana dan peneliti terdaftar.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-size:larger;">Emerald Insight</td>
+      <td style="text-align: justify; text-align: justify; font-size: 18px;">Emerald merupakan penerbit terkemuka di dunia di dalam penelitian manajemen dari berbagai bidang ilmu. Basis data ini mulai dipublikasikan tahun 1994 dan masih menjadi sumber terpercaya dalam hal informasi ilmiah, meskipun sebetulnya Emerald telah didirikan sejak tahun 1967.</td>
+    </tr>
+      <tr>
+        <td style="text-align: center; font-size:larger;">Taylor and Francis</td>
+        <td style="text-align: justify; text-align: justify; font-size: 18px;">Taylor & Francis Group adalah perusahaan multinasional Britania Raya yang menerbitkan buku dan jurnal akademik. Perusahaan ini merupakan divisi Informa plc, perusahaan penerbit dan konferensi Britania Raya.</td>
+      </tr>
+      <tr>
+        <td style="text-align: center; font-size:larger;">Thieme</td>
+        <td style="text-align: justify; text-align: justify; font-size: 18px;">Thieme Medical Publishers adalah penerbit medis dan sains Jerman di Thieme Publishing Group. Ini menghasilkan jurnal profesional, buku teks, atlas, monografi dan buku referensi dalam bahasa Jerman dan Bahasa Indonesia</td>
+      </tr>
+      <tr>
+        <td style="text-align: center; font-size:larger;">BRILL</td>
+        <td style="text-align: justify; text-align: justify; font-size: 18px;">Brill (Euronext: BRILL) (dikenal sebagai E. J. Brill, Koninklijke Brill, Brill Academic Publishers) adalah sebuah penerbit akademik internasional yang didirikan pada tahun 1683 di Leiden, Belanda. Brill memiliki kantor di Leiden, Boston, Paderborn dan Singapura. Brill hingga saat ini telah mempublikasikan 275 jurnal dan sekitar 1200 buku dan karya referensi baru setiap tahunnya. Sebagai tambahan, Brill adalah penyedia material sumber primer secara daring dan juga dalam bentuk mikroform untuk para periset dalam bidang kemanusiaan dan ilmu pengetahuan.</td>
+      </tr>
+  </table>
+  <hr>
+  
+  <!--ID-->
+  <h2 id="DENAHGEDUNG">DENAH GEDUNG</h2>
+  <div class="section">
+    <h2>Lantai 1</h2>
+    <p style="font-size: large;">Pada lantai pertama, terdapat meja resepsionis yang mana dalam lantai ini para pemustaka yang mengunjungi Perpustakaan Pusat memerlukan KTM (Kartu Tanda Mahasiswa) agar dapat masuk ke gedung Perpustakaan Pusat.</p>
+    </div> 
+   
+    <!--Classes-->
+    <div class="section">
+    <h2>Lantai 2</h2>
+    <p style="font-size: large;">Selanjutnya pada lantai dua terdapat loker penitipan barang dan tas.</p>
+    </div>
+    
+    <div class="section">
+    <h2>Lantai 3</h2>
+    <p style="font-size: large;">Pada lantai tiga terdapat beberapa ruangan, yaitu ruangan kepala perpustakaan, tata usaha, layanan teknis (pengadaan, pengolahan, pemeliharaan), dan layanan bebas pustaka. </p>
+    </div>
+
+    <div class="section">
+    <h2>Lantai 4</h2>
+    <p style="font-size: large;">Lantai empat gedung Perpustakaan UIN Syarif Hidayatullah Jakarta sudah mulai terdapat koleksi - koleksi perpustakaan yang tersusun pada rak - rak yang terdapat pada lantai tersebut. </p>
+    </div>
+
+    <div class="section">
+    <h2>Lantai 5</h2>
+    <p style="font-size: large;">Lantai lima Perpustakaan Pusat tidak jauh berbeda dengan lantai sebelumnya, yaitu lantai empat, hanya saja pada lantai ini koleksi perpustakaan yang ada berupa koleksi buku Islam, koleksi referensi dan juga terdapat layanan multimedia.</p>
+    </div>
+
+    <div class="section">
+    <h2>Lantai 6</h2>
+    <p style="font-size: large;">Lantai enam Perpustakaan Pusat UIN Syarif Hidayatullah Jakarta terdapat beberapa koleksi, yaitu koleksi skripsi, tesis dan disertasi, koleksi UIN - syahidania, koleksi majalah, jurnal dan koran, serta terdapat mushola dan toilet.</p>
+    </div>
+
+    <div class="section">
+    <h2>Lantai 7</h2>
+    <p style="font-size: large;">Lantai tujuh terdapat banyak ruangan yang merupakan ruangan dari American Corner, Canadian Corner, Saudi Arabian Corner, Munawir Corner, ruang serbaguna, ruang pertemuan, ruang peneliti, dan juga mushola dan toilet.</p>
+    </div>
+
+    <!--Media-->
+<hr>
+<h2>LIBRARY TOUR</h2>
+<p style="font-size: large;">Berikut video mengenai tour Perpustakaaan UIN Syarif Hidayatullah Jakarta</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oDiS4vGX67I?si=G9kJ9VNHbCFjknS9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<!--Forms-->
+<hr>
+<h2>KRITIK dan SARAN</h2>
+
+<form>
+  <label for="fname" style="font-size: large;">Nama:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="nim" style="font-size: large;">NIM:</label><br>
+  <input type="numeric" id="nim" name="nim"><br>
+  <label for="kritiksaran" style="font-size: large;">Kritik/Saran</label><br>
+  <input type="text" id="kritiksaran" name="kritiksaran"><br>
+  <input type="submit" value="Submit">
+</form> 
+
+</body>
+</html>
