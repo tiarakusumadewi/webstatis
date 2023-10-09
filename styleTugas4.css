@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 80%;
+    image-resolution: 80%;
+}
+body {
+    /*background-color: rgb(124, 170, 30);*/
+    background-image: url(img/bckg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    color: rgb(53, 37, 19);
+    text-align: center;
+    margin: 40px 30px;
+}
+h2 {
+    color: rgb(52, 37, 5);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: rgb(241, 160, 0);
+}
+p {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+    margin: 30px auto;
+    padding: 20px;
+    width: 900px;
+}
+d1 {
+    line-height: 30px;
+}
+dt {
+    font-family: 'Lucida Sans';
+    background-color: rgb(133, 113, 88);
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+    padding: 5px;
+}
+dd {
+    background-color: rgb(246, 233, 200);
+    font-family: monospace;
+    font-size: 18px;
+    text-indent: 40px;
+    text-align: justify;
+    width: 100%;
+    height: 100%;
+    line-height: 30px;
+    padding: 10px;
+    box-sizing:border-box;
+}
+a {
+    color: black;
+    text-decoration: underline;
+    text-transform: capitalize;
+    line-height: 30px;
+    padding: 20px;
+}
+.landmarkkotabandung {
+    width: 500px;
+    margin: 30px auto;
+}
+d1 img {
+    background-color: beige;
+    width: 200px;
+    /*border-top-left-radius: 50px;*/
+    border-radius: 100px;
+    float: left;
+    /*margin-top: 10px;
+    margin-right: 20px;*/
+    margin: 10px 20px 10px 0px;
+    padding: 10px;
+}
+.clear {
+    clear: center;
+}
+.footer {
+    margin-left: 100px;
+    text-align: center;
+}
