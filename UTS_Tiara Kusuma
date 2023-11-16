@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>beauteSidey</title>
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,500&display=swap" rel="stylesheet">
+
+
+<!-- Feather Icon -->
+<script src="https://unpkg.com/feather-icons"></script>
+ 
+<!-- Style -->
+    <link rel="stylesheet" href="styleUTS.css">
+</head>
+<body>
+
+
+<!-- Navbar star -->
+    <nav class="navbar">
+    <div class="navbar-logo">
+        <a href="#home">beaute<span>Sidey</span></a>
+    </div>
+    <div class="navbar-nav" id="navbar-nav">
+    <a href="#">Home</a>
+    <div class="dropdown">
+        <a href="#about">About Us</a>
+        <div class="isi-dropdown">
+            <ul>
+                <li><a href="#sejarah">Sejarah</a></li>
+                <li><a href="#struktur">Struktur Organisasi</a></li>
+            </ul>
+        </div>
+    </div>
+    <a href="#product">Product</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact</a>
+    </div>
+
+    <div id="DisplayClock" class="clock" onload="showTime()"></div>
+    <div class="navbar-extra">
+        <a href="#" id="shopping-bag"><i data-feather="shopping-bag"></i></a>
+        <a href="#" id="user"><i data-feather="user"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+    </div>
+    </nav>
+<!-- Navbar end -->
+
+<!-- Hero Section Start-->
+<section class="hero" id="home">
+<main class="content">
+    <h1> Memperkenalkan Innisfree, pulau kaya penghasil kecantikan nan alami</h1>
+    <p> Perawatan Kulit Terbaik dari Bahan Alami.<br>Rasakan Perbedaannya Sekarang!</p>
+    <a href="#" class="cta">Beli Sekarang</a>
+</main>
+</section>
+
+<!-- Hero Section End-->
+
+<!-- About Us Section Start-->
+<section id="about" class="about">
+    <h2> About Us</h2>
+
+    <div class="row">
+        <div class="about-img">
+            <img src="img/innisfree.webp" alt="About Us">
+        </div>
+        <div class="content">
+            <h3> Tentang Innisfree</h3>
+            <p><b>Innisfree</b> (Hangul: 이니스프리) adalah merek kosmetik Korea Selatan yang dimiliki dan didirikan oleh Amore Pacific pada tahun 2000. Nama merek ini diambil dari puisi penyair Irlandia WB Yeats , <i>The Lake Isle of Innisfree</i>. Innisfree memiliki toko di Korea Selatan, Hong Kong, Tiongkok, Jepang, Taiwan, Singapura, Malaysia, Thailand, Vietnam, india, Filipina, India, Amerika Serikat, Kanada, Australia, dan Uni Emirat Arab.</p>
+            <p>Innisfree terkenal dengan keterjangkauan dan konsep mereknya, yang menekankan pada produk kecantikan yang sehat dan harga terjangkau dengan bahan-bahan yang bersumber dari Pulau Jeju, Korea Selatan. Innisfree adalah merek K-beauty pertama yang meluncurkan dua lini alas bedak bantalan inklusif dengan 14 warna.</p>
+        </div>
+    </div>
+</section>
+<!-- About Us Section End-->
+
+<!-- Sejarah Section Start-->
+<section id="sejarah" class="sejarah">
+    <h2>Sejarah Innisfree</h2>
+<div class="row"></div>
+<div class="sejarah-card">
+    <img src="img/innis2003.jpg" alt="2000-2005" class="sejarah-card-img">
+<h3 class="sejarah-card-tittle"> 2000-2005</h3>
+<ul class="sejarah">
+    <li>Peluncuran Innisfree sebagai brand Korea pertama berkonsep natural</li>
+    <li>Peluncuran kampanye re-cycle botol kosong <i>Empty Bottle Recycling</i></li>
+    <li>Pembukaan gerai roadshop Innisfree
+        yang pertama</li>
+    <li>Peringkat pertama dalam index kesejahteraan kualitas hidup (well-being) konsumen</li>
+
+</ul>
+</div>
+</section>
+
+<!-- Feather Icon -->
+    <script>
+        feather.replace();
+      </script>
+
+<!--Javascript-->
+<script src="scriptUTS.js"></script>
+
+</body>
+</html>

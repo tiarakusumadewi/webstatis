@@ -1,0 +1,310 @@
+:root {
+    --primary: rgba(104, 11, 64, 0.8)606;
+    --bg: #fbedf5;  
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--bg);
+    color:azure; 
+    min-height: 2000px;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    background-color: rgba(104, 11, 64, 0.8);
+    border-bottom: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.navbar .navbar-logo {
+font-size: 1.5rem;
+font-weight: 500;
+color: #fff;
+font-style: italic;
+}
+
+.navbar .navbar-nav a {
+color:#fff;
+display: inline-block;
+font-size: 1rem;
+margin: 0 1rem;
+}
+ 
+.navbar .navbar-nav a:hover {
+    color: var(--primary);
+}
+
+.navbar .navbar-nav a::after {
+    content: '';
+    display: block;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1rem solid;
+    color: rgb(255, 255, 255);
+    transform: scaleX(0);
+}
+
+.navbar .navbar-nav a:hover::after {
+    transform: scaleX(1);
+    transition: 0.2s linear;
+}
+
+
+.navbar .navbar-extra a {
+    color: #fff;
+    margin: 0 0.5rem;
+}
+
+.navbar .navbar-extra a:hover {
+    color: var(--primary);
+}
+
+#hamburger-menu {
+    display: none;
+}
+
+/* navbar-dropdown */
+.dropdown a{
+    padding: 0;
+}
+
+.dropdown ul{
+    list-style-type: none;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown:hover .isi-dropdown {
+    display: block;
+}
+
+.isi-dropdown a:hover {
+    color: black !important;
+}
+
+.isi-dropdown {
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+}
+
+.isi-dropdown a {
+    color: rgb(255, 255, 255) !important;
+    border-radius: 0;
+}
+
+.isi-dropdown a:hover {
+    color: rgb(255, 255, 255);
+    background: transparent;
+}
+
+/* navbar hamburger-menu */
+.clock{
+    color: rgb(234, 177, 222);
+    display: none;
+    align-items: center;
+}
+/* Hero Section*/
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url('img/headerweb.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    bottom: 0;
+    background: linear-gradient((0deg, #f3bfe2 8%, #f0cee1) 50%);
+}
+
+.hero .content {
+    padding: 1.4rem 7%;
+    max-width: 60rem;
+}
+
+.hero .content h1 {
+    font-size: 2rem;
+    color: rgb(34, 33, 34);
+    line-height: 1.2;
+}
+
+.hero .content p {
+   font-size: 1.2rem;
+   color: rgb(34, 33, 34); 
+   margin-top: 1rem;
+   line-height: 1.4;
+   font-weight: 100;
+}
+
+.hero .content .cta {
+    margin-top: 2rem;
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: rgba(104, 11, 64, 0.8);
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 3px rgb(104, 11, 64)606;
+}
+
+/* About Section */
+.about {
+    padding: 10rem 7% 1.4rem;
+    color: black;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: black;
+}
+
+.about .row {
+    display: flex;
+}
+
+.about .row .about-img {
+    flex: 1 1 45rem;
+}
+
+.about .row .about-img img{
+    width: 100%;
+}
+
+.about .row .content {
+    flex: 1 1 60rem;
+    padding: 0 1rem;
+}
+
+.about .row .content h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.about .row .content p {
+    margin-bottom: 0.8rem;
+    font-size: 1.3rem;
+    text-align: justify;
+    font-weight: 100;
+    line-height: 1.6;
+}
+
+/* Sejarah Section */
+.sejarah {
+    padding: 9rem 7% 1.2rem;
+    color: black;
+}
+
+.sejarah h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: black;
+}
+.sejarah .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    justify-content: center;
+}
+
+.sejarah-card {
+    text-align: center;
+}
+
+.sejarah .row .sejarah-card img {
+    border-radius: 80%;
+    width: 80%;
+}
+
+.sejarah .row .sejarah-card-tittle {
+    margin-top: 1.5rem;
+}
+
+.sejarah .row
+/* Media Queries */
+/* Laptop */
+@media (max-width: 1366px) {
+    html {
+        font-size: 75%;
+    }
+
+    #hamburger-menu {
+        display: inline-block;
+    }
+
+    .navbar .navbar-nav {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background-color: rgba(104, 11, 64, 0.8);
+        width: 30rem;
+        height: 100vh;
+        transition: 0.3s;
+    }
+
+    .navbar .navbar-nav.active {
+        right: 0;
+    }
+
+    .navbar .navbar-nav a {
+        color: var(--bg);
+        display: block;
+        margin: 1.5rem;
+        padding: 0.5rem;
+        font-size: 2rem;
+    }
+
+    .navbar .navbar-nav a::after {
+        transform-origin: 0 0;
+    }
+
+    .navbar .navbar-nav a:hover::after {
+        transform:scaleX(0.2);
+    }
+}
+
+/* Tablet */
+@media (max-width: 758px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+/* HP */
+@media (max-width: 450px) {
+    html {
+        font-size: 55%;
+    }
+}
